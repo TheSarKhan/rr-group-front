@@ -1,0 +1,143 @@
+.formGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .title {
+    grid-column: span 2;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0f2431;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroupFull {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    height: 82px;
+    border-radius: 12px;
+    border: 1px solid #0f2431;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+  
+  .textarea {
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid #0f2431;
+    padding: 16px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .fileAndButton {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 12px;
+  }
+  
+  .fileInput {
+    width: 268px;
+    height: 94px;
+    border-radius: 12px;
+    border: 1px solid #0f2431;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  .submitButton {
+    display: flex;
+    width: 271px;
+    height: 94px;
+    padding: 31px 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    background: #313756;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+//   .fileAndButtonBlock {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+    
+//   }
+  
+  .fileAndButtonBlock {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .fileLabel {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .fileAndButton {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+  }
+  
+  .fileInput {
+    width: 268px;
+    height: 94px;
+    border-radius: 12px;
+    border: 1px solid #0F2431;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .submitButton {
+    width: 271px;
+    height: 94px;
+    padding: 31px 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    background: #313756;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  label{
+    color: #0F2431;
+font-family: Inter;
+padding: 10px 0;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+
+  .fileAndButtonBlock {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  

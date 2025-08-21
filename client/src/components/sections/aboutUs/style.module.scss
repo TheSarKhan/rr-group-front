@@ -1,0 +1,37 @@
+.aboutus{
+    color: #0F2431;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.aboutusdesc{
+    color: #000;
+text-align: right;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+}
+
+.aboutusbtn{
+    display: inline-flex;
+    height: 60px;
+    padding: 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #444B73;
+    cursor: pointer;
+    color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }

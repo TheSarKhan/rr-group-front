@@ -1,0 +1,28 @@
+.closebtn{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    transform: rotate(-46.167deg);
+    padding: 10px;
+}
+
+.modalimg{
+    max-width: 457.813px;
+    padding: 3px;
+    height: 100%;
+    flex-shrink: 0;
+    aspect-ratio: 457.81/293.00;
+}
+
+.modaldesc{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}

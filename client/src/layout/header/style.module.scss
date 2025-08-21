@@ -1,0 +1,15 @@
+.contact{
+    display: flex;
+padding: 12px 26px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 33px;
+border: 1px solid #313756;
+
+}
+.contact:hover {
+    background-color: #313756; 
+    color: white; 
+    transition: .3s ease-in-out;
+  }

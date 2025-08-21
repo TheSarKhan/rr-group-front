@@ -1,0 +1,37 @@
+.imagebox {
+    width: 100%;
+    max-width: 930px;        
+    margin: 0 auto;          
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  .projectimg {
+    width: 100%;
+    height: auto;
+    max-width: 450px;        
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+
+  .detailname{
+    color: #000;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+  }
+
+  .detname{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+  }

@@ -1,0 +1,46 @@
+.newscard{
+ display: flex;
+width: 100%;
+height: 430px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+text-align:start;
+border-radius: 10px;
+border: 1px solid rgba(170, 170, 170, 0.20);
+overflow: hidden;
+padding: 0px;
+}
+.newsname{
+    color: #0F2431;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 8px 0px;
+}
+
+.newsdesc{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 0px;
+
+}
+.newsimage{
+    height: 260px;
+    flex-shrink: 0;
+    align-self: stretch;
+    aspect-ratio: 98/65;
+}
+
+.newsimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

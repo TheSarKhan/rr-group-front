@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+@theme {
+  --darkMode: false;
+}
+
+ 
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+  }
+  
+  body {
+    top: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+  iframe.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+  }
+  
+  body {
+    top: 0 !important;
+    margin-top: 0 !important;
+    position: static !important;
+  }
+  

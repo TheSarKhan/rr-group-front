@@ -1,0 +1,774 @@
+{
+  "instaswipers": [
+    {
+      "id": "1",
+      "image": {
+        "url": "/assets/mission1.svg"
+      },
+      "name": "Dəyər qazandırmaq",
+      "desc": "Davamlı rəqabət üstünlükləri yaratmaqla müştərilərimizə dəyər qazandırmaq "
+    },
+    {
+      "id": "2",
+      "image": {
+        "url": "/assets/mission3.svg"
+      },
+      "name": "Çoxşaxəli sahələr",
+      "desc": " Əlimizdən gələnin ən yaxşısını etməyə səy göstəririk;"
+    },
+    {
+      "id": "3",
+      "image": {
+        "url": "/assets/mission2.svg"
+      },
+      "name": "Beynəlxalq rəqabət",
+      "desc": "İxrac potensialının güclənməsinə töhfə verdiyimizi hesab edirik."
+    },
+    {
+      "id": "4",
+      "image": {
+        "url": "/assets/mission1.svg"
+      },
+      "name": "Davamlı rəqabət",
+      "desc": "Davamlı rəqabət üstünlükləri yaratmaqla müştərilərimizə dəyər qazandırmaq "
+    }
+  ],
+  "aboutvalues": [
+    {
+      "id": "10",
+      "image": {
+        "url": "/assets/value2.svg"
+      },
+      "name": "Sadiqlik",
+      "desc": "Dəyərlərimizə tam sadiq qalmaq, şirkətə loyallığı təmin etmək"
+    },
+    {
+      "id": "11",
+      "image": {
+        "url": "/assets/value3.svg"
+      },
+      "name": "Peşəkarlıq",
+      "desc": "Gördüyümüz bütün işlərə müasir peşəkar təcrübələrə əsaslanmaqla yanaşmaq"
+    },
+    {
+      "id": "12",
+      "image": {
+        "url": "/assets/value4.svg"
+      },
+      "name": "Vətənpərvərlik",
+      "desc": "ölkənin maraqlarını biznes maraqlarımızdan daim üstün tutmaq"
+    },
+    {
+      "id": "13",
+      "image": {
+        "url": "/assets/value5.svg"
+      },
+      "name": "Məsuliyyətli biznes",
+      "desc": "qabaqcıl biznes etikasına tam uyğun fəaliyyət göstərmək;"
+    },
+    {
+      "id": "14",
+      "image": {
+        "url": "/assets/value6.svg"
+      },
+      "name": "Müştəriyönlülük",
+      "desc": "ədalətli qiymətlərlə məhsul istehsal etmək və xidmətlər göstərmək;"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "5",
+      "image": {
+        "url": "/assets/cert1.svg"
+      }
+    },
+    {
+      "id": "6",
+      "image": {
+        "url": "/assets/cert2.svg"
+      }
+    },
+    {
+      "id": "7",
+      "image": {
+        "url": "/assets/cert3.svg"
+      }
+    },
+    {
+      "id": "8",
+      "image": {
+        "url": "/assets/cert1.svg"
+      }
+    }
+  ],
+  "aboutboards": [
+    {
+      "id": "20",
+      "image": {
+        "url": "/assets/board1.svg"
+      },
+      "name": "Quliyev Fizuli Əli oğlu 'RR İnvestment' MMC-nin direktoru",
+      "desc": "Quliyev Fizuli Əli oğlu 13 mart 1963-cü ildə Tovuz rayonunda anadan olmuşdur. 1984-1989 cu illərdə Ukraynanın Sevastopol cihazqayırma institutunda təhsil almışdır. 2002-ci ilədək Gəncə cihazqayırma zavodunda sahə rəisi, sex rəisi vəzifələrində çalışmışdır. 2002-2011 illərdə biznes sahəsində fəaliyyətini uğurla davam etdirmişdir. 2011-ci ildən bir çox tanınmış şirkətlərdə direktor vəzifəsində çalışmışdır. 35 ilə yaxın iş fəaliyyəti dövründə bir çox rəhbər vəzifələri icra etmişdir. 2024-cü ildən 'RR İnvestment' MMC-nin direktorudur."
+    },
+    {
+      "id": "21",
+      "image": {
+        "url": "/assets/board2.svg"
+      },
+      "name": "Qarayeva Taliyyə İbrahim qızı 'Qarabağ Aqro 44' MMC-nin direktoru",
+      "desc": "Quliyev Fizuli Əli oğlu 13 mart 1963-cü ildə Tovuz rayonunda anadan olmuşdur. 1984-1989 cu illərdə Ukraynanın Sevastopol cihazqayırma institutunda təhsil almışdır. 2002-ci ilədək Gəncə cihazqayırma zavodunda sahə rəisi, sex rəisi vəzifələrində çalışmışdır. 2002-2011 illərdə biznes sahəsində fəaliyyətini uğurla davam etdirmişdir. 2011-ci ildən bir çox tanınmış şirkətlərdə direktor vəzifəsində çalışmışdır. 35 ilə yaxın iş fəaliyyəti dövründə bir çox rəhbər vəzifələri icra etmişdir. 2024-cü ildən 'RR İnvestment' MMC-nin direktorudur."
+    }
+  ],
+  "chooseus": [
+    {
+      "id": "22",
+      "image": {
+        "url": "/assets/choose.svg"
+      },
+      "name": "Peşəkarlıq və Təcrübə",
+      "desc": "15 ildən artıq təcrübəmizlə tikinti sektorunda etibarlı tərəfdaş olmağı bacarmışıq. Hər layihədə yüksək keyfiyyət və dəqiqliklə fərqlənirik."
+    },
+    {
+      "id": "23",
+      "image": {
+        "url": "/assets/choose.svg"
+      },
+      "name": "Vətənə Dəstək Missiyası",
+      "desc": "Biz yalnız tikmirik – biz Azərbaycanın gələcəyini qururuq. Qarabağ və digər regionlarda həyata keçirdiyimiz layihələrlə ölkəmizin inkişafına töhfə veririk."
+    },
+    {
+      "id": "24",
+      "image": {
+        "url": "/assets/choose.svg"
+      },
+      "name": "Genişmiqyaslı Layihələr",
+      "desc": "Yaşayış komplekslərindən sənaye obyektlərinə qədər müxtəlif sahələrdə uğurla reallaşdırdığımız layihələr müştərilərimizin bizə olan etibarının göstəricisidir."
+    },
+    {
+      "id": "25",
+      "image": {
+        "url": "/assets/choose.svg"
+      },
+      "name": "Müştəri Məmnuniyyəti Prioritetimizdir",
+      "desc": "Hər bir müştəri ilə şəffaf və etibarlı əməkdaşlıq qururuq. Göstərdiyimiz xidmətlərdə məmnuniyyət səviyyəsi 90%-dən yüksəkdir."
+    }
+  ],
+  "projectcards": [
+    {
+      "id": "26",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Bakıda Ticarət və Logistika mərkəzi",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyi və dayanıqlı memarlıq prinsiplərinə əsaslanan bir kompleksdir",
+      "date": "19.10.12",
+      "customer": "Grotesk MMC",
+      "context": "<p>İstifadə olunan materiallar və texnologiyalar:</p><ul><li>Beton və dəmir konstruksiyalar: C35 sinifli beton və B500C tipli armaturla təmin olunmuşdur.</li><li>İzolyasiya: Alman istehsalı olan \"Knauf\" markasının istilik və səs izolyasiya materialları istifadə olunmuşdur.</li><li>Fasad: İqlimə davamlı və nəfəs alan ventilasiya olunan fasad sistemi tətbiq edilmişdir.</li></ul>"
+    },
+    {
+      "id": "27",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "28",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "29",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "30",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "31",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "32",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    }
+  ],
+  "newscards": [
+    {
+      "id": "33",
+      "image": {
+        "url": "/assets/news1.svg"
+      },
+      "name": "Qida Təhlükəsizlik Formu",
+      "desc": "18 iyul Milla süd emalı zavodunda qida təhlükəsizlik formu keçirilib.",
+      "context": "Fəaliyyətə başladığı gündən etibarən işğaldan azad olunmuş ərazilərdə yenidənqurma işləri ilə məşğul olan 'Qarabağ Aqro 44'MMC bu dəfə öz  layihə və gələcək planlarını COP29 çərçivəsində göstərib. 20 Noyabr COP29 Yaşıl zonada 'Sürdürülebilir Gelecek Platformu' pavilyonunda təqdimat keçirilib. Azərbaycan-Türkiyə İş Adamları (ATİB) İdarə heyətinin üzvü 'Qarabağ Aqro 44'MMC-nin  layihə rəhbəri Ərəstun Qarayev işğaldan azad olunmuş Qarabağ iqtisadi rayonunda dayanıqlı kənd təsərrüfatı fəaliyyəti barədə qonaqlara təqdimat edib."
+    },
+    {
+      "id": "34",
+      "image": {
+        "url": "/assets/news2.svg"
+      },
+      "name": "Anım Günü",
+      "desc": "18 iyul Milla süd emalı zavodunda karyera günü keçirilib",
+      "context": "Fəaliyyətə başladığı gündən etibarən işğaldan azad olunmuş ərazilərdə yenidənqurma işləri ilə məşğul olan 'Qarabağ Aqro 44'MMC bu dəfə öz  layihə və gələcək planlarını COP29 çərçivəsində göstərib. 20 Noyabr COP29 Yaşıl zonada 'Sürdürülebilir Gelecek Platformu' pavilyonunda təqdimat keçirilib. Azərbaycan-Türkiyə İş Adamları (ATİB) İdarə heyətinin üzvü 'Qarabağ Aqro 44'MMC-nin  layihə rəhbəri Ərəstun Qarayev işğaldan azad olunmuş Qarabağ iqtisadi rayonunda dayanıqlı kənd təsərrüfatı fəaliyyəti barədə qonaqlara təqdimat edib."
+    },
+    {
+      "id": "35",
+      "image": {
+        "url": "/assets/news3.svg"
+      },
+      "name": "Cənab Prezdentin ad günü  ",
+      "desc": "Cənab prezident İlham Əliyevin ad günü qeyd olunub."
+    },
+    {
+      "id": "36",
+      "image": {
+        "url": "/assets/news3.svg"
+      },
+      "name": "Cənab Prezdentin ad günü ",
+      "desc": "Cənab prezident İlham Əliyevin ad günü qeyd olunub."
+    },
+    {
+      "id": "37",
+      "image": {
+        "url": "/assets/news1.svg"
+      },
+      "name": "MMC COP29 ",
+      "desc": "18 iyul Milla süd emalı zavodunda qida təhlükəsizlik formu keçirilib."
+    },
+    {
+      "id": "38",
+      "image": {
+        "url": "/assets/news2.svg"
+      },
+      "name": "Anım Günü ",
+      "desc": "18 iyul Milla süd emalı zavodunda karyera günü keçirilib"
+    }
+  ],
+  "newsswip": [
+    {
+      "id": "39",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      }
+    },
+    {
+      "id": "40",
+      "image": {
+        "url": "/assets/newsswip2.svg"
+      }
+    },
+    {
+      "id": "41",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      }
+    },
+    {
+      "id": "42",
+      "image": {
+        "url": "/assets/newsswip2.svg"
+      }
+    }
+  ],
+  "ksms": [
+    {
+      "id": "43",
+      "image": {
+        "url": "/assets/hoverksm1.svg"
+      },
+      "hoverimage": {
+        "url": "/assets/ksm1.svg"
+      },
+      "name": "KSM Siyasətimiz",
+      "desc": "RR Group of Companies-in fəaliyyətinin əsasını yalnız qazanc əldə etmək təşkil etmir.",
+      "context": "RR Group of Companies-in fəaliyyətinin əsasını yalnız qazanc əldə etmək təşkil etmir. O, həm də fəaliyyət göstərdiyi cəmiyyət və ətraf mühit qarşısındakı məsuliyyətini dərk edir və bu sahədə əməli tədbirlər həyata keçirir.RR Group of Companies-in sosial məsuliyyət üzrə yanaşması təkcə müştəriləri və işçiləri qarşısında məsuliyyəti yox, eyni zamanda digər hədəf qruplarının gözləntiləri və ehtiyaclarına, ətraf mühitin qorunmasına və inkişafına yönələn könüllü davranış mədəniyyətini əhatə edir.RR Group of Companies biznes fəaliyyəti ilə yanaşı özünün sosial məsuliyyətini dərindən dərk edir, ictimai maraqları daim nəzərə alır və sosial-mədəni layihələri dəstəkləyir."
+    },
+    {
+      "id": "44",
+      "image": {
+        "url": "/assets/ksm2.svg"
+      },
+      "hoverimage": {
+        "url": "/assets/hoverksm2.svg"
+      },
+      "name": "KSM konsepsiyası",
+      "desc": "RR Group of Companies-in fəaliyyətinin əsasını yalnız qazanc əldə etmək təşkil etmir.",
+      "context": "Fəaliyyətə başladığı gündən etibarən işğaldan azad olunmuş ərazilərdə yenidənqurma işləri ilə məşğul olan 'Qarabağ Aqro 44'MMC bu dəfə öz  layihə və gələcək planlarını COP29 çərçivəsində göstərib. 20 Noyabr COP29 Yaşıl zonada 'Sürdürülebilir Gelecek Platformu' pavilyonunda təqdimat keçirilib. Azərbaycan-Türkiyə İş Adamları (ATİB) İdarə heyətinin üzvü 'Qarabağ Aqro 44'MMC-nin  layihə rəhbəri Ərəstun Qarayev işğaldan azad olunmuş Qarabağ iqtisadi rayonunda dayanıqlı kənd təsərrüfatı fəaliyyəti barədə qonaqlara təqdimat edib."
+    },
+    {
+      "id": "45",
+      "image": {
+        "url": "/assets/ksm33.svg"
+      },
+      "hoverimage": {
+        "url": "/assets/hoverksm3.svg"
+      },
+      "extraimages": [
+        {
+          "url": "/assets/ksmproj1.svg"
+        },
+        {
+          "url": "/assets/ksmproj2.svg"
+        },
+        {
+          "url": "/assets/ksmproj1.svg"
+        },
+        {
+          "url": "/assets/ksmproj2.svg"
+        }
+      ],
+      "name": "Tədbirlər  ",
+      "desc": "RR Group of Companies-in fəaliyyətinin əsasını yalnız qazanc əldə etmək təşkil etmir.",
+      "context": "RR Group of Companies-in fəaliyyətinin əsasını yalnız qazanc əldə etmək təşkil etmir. O, həm də fəaliyyət göstərdiyi cəmiyyət və ətraf mühit qarşısındakı məsuliyyətini dərk edir və bu sahədə əməli tədbirlər həyata keçirir.RR Group of Companies-in sosial məsuliyyət üzrə yanaşması təkcə müştəriləri və işçiləri qarşısında məsuliyyəti yox, eyni zamanda digər hədəf qruplarının gözləntiləri və ehtiyaclarına, ətraf mühitin qorunmasına və inkişafına yönələn könüllü davranış mədəniyyətini əhatə edir.RR Group of Companies biznes fəaliyyəti ilə yanaşı özünün sosial məsuliyyətini dərindən dərk edir, ictimai maraqları daim nəzərə alır və sosial-mədəni layihələri dəstəkləyir."
+    }
+  ],
+  "services": [
+    {
+      "id": "46",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Bakıda Ticarət və Logistika mərkəzi",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyi və dayanıqlı memarlıq prinsiplərinə əsaslanan bir kompleksdir",
+      "date": "19.10.12",
+      "customer": "Grotesk MMC",
+      "context": "Azərbaycan höküməti ilə Dünya Bankı arasında imzalanmış razılaşma əsasında Qəbələ rayonunda su-kanalizasiya sistemlərinin yenidən tikintisi və quraşdırılması layihəsi həyata keçirilir. Layihənin icrası RR Group of Companies-ə həvalə olunmuşdur. Layihə ölkəmizin regional infrastrukturunun inkişafı baxımından böyük əhəmiyyət kəsb edir və Respublikanın şimal-qərb bölgəsində su təchizatı və kanalizasiya sistemlərinin müasir beynəlxalq standartlara uyğun qurulmasını təmin edir. Layihə 2035-ci il şəhər əhalisinin sayına hesablanmışdır. Hazırda 13627 nəfər şəhər əhalisinə xidmət edəcəkdir. Layihənin inşasına 2015-ci ilin avqust ayında start verilmiş və 2016-cı ilin avqust ayında layihə üzrə işlər təhvil veriləcəkdir.\n\nQəbələ rayonu çirkab suların axıdılması sistemlərinin tikintisi layihəsi: Azərbaycan höküməti ilə Dünya Bankı arasında imzalanmış razılaşma əsasında Qəbələ rayonunda çirkab suların axıdılması sistemlərinin yenidən tikintisi və quraşdırılması layihəsi həyata keçirilir. Layihənin icrası RR Group of Companies-ə həvalə olunmuşdur. Layihənin 2016-cı ilin dekabr ayına qədər təhvil verilməsi planlaşdırılır."
+    },
+    {
+      "id": "47",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "48",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "49",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "50",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "51",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "52",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    }
+  ],
+  "serviceswipers": [
+    {
+      "id": "53",
+      "desc": "Tikinti obyektlərinin inşası"
+    },
+    {
+      "id": "54",
+      "desc": "Sənaye obyektlərinin inşası"
+    },
+    {
+      "id": "55",
+      "desc": "İnfrastruktur obyektlərinin inşası"
+    },
+    {
+      "id": "56",
+      "desc": "Ofis və yaşayış obyektlərinin inşası"
+    }
+  ],
+  "servicecommerceswipers": [
+    {
+      "id": "57",
+      "desc": "İnşaat materiallarının satışı"
+    },
+    {
+      "id": "58",
+      "desc": "Ərzaq məhsullarının satışı"
+    }
+  ],
+  "serviceslogistics": [
+    {
+      "id": "64",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Bakıda Ticarət və Logistika mərkəzi",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyi və dayanıqlı memarlıq prinsiplərinə əsaslanan bir kompleksdir",
+      "date": "19.10.12",
+      "customer": "Grotesk MMC",
+      "context": "<p>İstifadə olunan materiallar və texnologiyalar:</p><ul><li>Beton və dəmir konstruksiyalar: C35 sinifli beton və B500C tipli armaturla təmin olunmuşdur.</li><li>İzolyasiya: Alman istehsalı olan \"Knauf\" markasının istilik və səs izolyasiya materialları istifadə olunmuşdur.</li><li>Fasad: İqlimə davamlı və nəfəs alan ventilasiya olunan fasad sistemi tətbiq edilmişdir.</li></ul>"
+    },
+    {
+      "id": "65",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "66",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "67",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "68",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    }
+  ],
+  "servicescommerce": [
+    {
+      "id": "69",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Bakıda Ticarət və Logistika mərkəzi",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyi və dayanıqlı memarlıq prinsiplərinə əsaslanan bir kompleksdir",
+      "date": "19.10.12",
+      "customer": "Grotesk MMC",
+      "context": "<p>İstifadə olunan materiallar və texnologiyalar:</p><ul><li>Beton və dəmir konstruksiyalar: C35 sinifli beton və B500C tipli armaturla təmin olunmuşdur.</li><li>İzolyasiya: Alman istehsalı olan \"Knauf\" markasının istilik və səs izolyasiya materialları istifadə olunmuşdur.</li><li>Fasad: İqlimə davamlı və nəfəs alan ventilasiya olunan fasad sistemi tətbiq edilmişdir.</li></ul>"
+    },
+    {
+      "id": "70",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "71",
+      "image": {
+        "url": "/assets/projpage2.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "72",
+      "image": {
+        "url": "/assets/projpage3.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    },
+    {
+      "id": "73",
+      "image": {
+        "url": "/assets/projpage1.svg"
+      },
+      "name": "Ağdam rayonunun Xıdırlı kəndinin su təchizatı ",
+      "desc": "'GreenHill Residence' layihəsi, müasir yaşayış standartlarına cavab verən, enerji effektivliyinə əsaslanır"
+    }
+  ],
+  "serviceoffices": [
+    {
+      "id": "74",
+      "image": {
+        "url": "/assets/office1.svg"
+      },
+      "name": "RR Group Türkiyə",
+      "desc": "Tikinti sahəsində beynəlxalq təcrübəmizi Türkiyə bazarında uğurla tətbiq edirik.",
+      "context": "RR Group of Companies beylnəlxalq fəaliyyətini Türkiyə Cumhuriyyətində də həyata keçirir. 2016-cı ildə İstanbul şəhərində şirkətin RR Qrup Türkiyə nümayəndəliyi təsis edilmişdir. Hazırda şirkət Türkiyədə planlaşdırılan bir sıra inşaat layihələri üzrə tenderlərdə iştirak edir. Bundan əlavə şirkət hazırda İstanbul şəhərində 'Sabiha Gökçen hava limanı - Pendik arası metro tunel tikintisi' layihəsi üzrə inşaat işlərini həyata keçirir. ",
+      "officeimage": [
+        {
+          "url": "/assets/officedet1.svg"
+        },
+        {
+          "url": "/assets/officedet2.svg"
+        },
+        {
+          "url": "/assets/officedet1.svg"
+        },
+        {
+          "url": "/assets/officedet2.svg"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "image": {
+        "url": "/assets/office2.svg"
+      },
+      "name": "RR Group Macarıstan",
+      "desc": "Avropa bazarına çıxış məqsədilə Macarıstanda nümayəndəliyimiz fəaliyyət göstərir.",
+      "context": "RR Group of Companies olaraq əsas hədəflərimizdən biri Avropa bazarında biznes fəaliyyəti ilə məşğul olmaq və yerli istehsal məhsullarını Avropa bazarına çıxarmaqdır. RR Group of Companies bu hədəflər istiqamətində planlı və məqsədyönlü iş planı üzrə fəaliyyətini həyata keçirir. Belə ki, 2016-cı ildə RR Group Hungary nümayəndəliyini təsis etmişdir. Hazırda yerli bazarın araşdırılması və inşaat layihələri üzrə tenderlərdə iştirak edən nümayəndəlik, bir sıra yerli iri korporasiyalarla da əməkdaşlıqlara başlamışdır. ",
+      "officeimage": [
+        {
+          "url": "/assets/officedet1.svg"
+        },
+        {
+          "url": "/assets/officedet2.svg"
+        },
+        {
+          "url": "/assets/officedet1.svg"
+        },
+        {
+          "url": "/assets/officedet2.svg"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "image": {
+        "url": "/assets/office3.svg"
+      },
+      "name": "RR Group Gürcüstan",
+      "desc": "Qafqaz regionunda böyümə strategiyamız çərçivəsində Gürcüstanda da aktivik."
+    }
+  ],
+  "servicesetems": [
+    {
+      "id": "77",
+      "image": {
+        "url": "/assets/setem1.svg"
+      },
+      "name": "Jurnallar",
+      "desc": "Əməyin təhlükəsizliyini sənədlərlə təmin edir, şəffaf idarəetməni təşviq edirik."
+    },
+    {
+      "id": "78",
+      "image": {
+        "url": "/assets/setem2.svg"
+      },
+      "name": "Təlimatlar",
+      "desc": "Təhlükəsizlik və ixtisasartırma sahəsində davamlı inkişafı dəstəkləyirik."
+    }
+  ],
+  "servicedetailswiper": [
+    {
+      "id": "79",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      }
+    },
+    {
+      "id": "80",
+      "image": {
+        "url": "/assets/newsswip2.svg"
+      }
+    },
+    {
+      "id": "91",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      }
+    },
+    {
+      "id": "92",
+      "image": {
+        "url": "/assets/newsswip2.svg"
+      }
+    }
+  ],
+  "careerswiper": [
+    {
+      "id": "93",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      },
+      "name": "Qrafik dizayner",
+      "desc": "19.05.25"
+    },
+    {
+      "id": "94",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      },
+      "name": "Xadimə",
+      "desc": "19.05.25"
+    },
+    {
+      "id": "94",
+      "image": {
+        "url": "/assets/newsswip1.svg"
+      },
+      "name": "Qrafik dizayner",
+      "desc": "19.05.25"
+    }
+  ],
+  "cvSubmissions": [
+    {
+      "id": "1174",
+      "fullName": "narmin",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "nnkvdf",
+      "fileName": "Transcript.PDF"
+    },
+    {
+      "id": "6ce5",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "jkdsd",
+      "fileName": "Transcript.PDF"
+    },
+    {
+      "id": "dedb",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "bjhvh",
+      "fileName": "Transcript.PDF"
+    },
+    {
+      "id": "d347",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": " ds,ms,v",
+      "fileName": "Transcript.PDF"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "7d57",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "salam"
+    },
+    {
+      "id": "5fd9",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "nm "
+    },
+    {
+      "id": "e486",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "salanm"
+    },
+    {
+      "id": "f736",
+      "fullName": "Narmin Balakishiyeva",
+      "phone": "0773710281",
+      "email": "nbalakishi@gmail.com",
+      "position": "front-end",
+      "motivation": "njb"
+    }
+  ],
+  "specialprojects": [
+    {
+      "id": "95",
+      "image": {
+        "url": "/assets/news1.svg"
+      },
+      "name": "Garabkh Town Məhəlləsi",
+      "desc": "Ərazinin xüsusi məhəllə formasında təşkili, habelə əlverişli logistika imkanları layihənin uğurla həyata keçəcəyinə təminat verir.",
+      "context": "Ağdam rayonunda yerləşən Garabagh Town iqtisadi zonası 10 ha ərazini əhatə edir. Ərazinin xüsusi məhəllə formasında təşkili habelə əlverişli logistika imkanları layihənin uğurla həyata keçəcəyinə təminat verir.İqtisadi zonanın Məhəllə formasında fəaliyyət göstərməsi barədə tədbirlər görülür. Garabagh Town məhəlləsində sahibkarlara təqdim olunan güzəştlər:Gömrük rüsumlarından, torpaq və əmlak vergisi və mənfəət vergisindən 100% azad olması;İstehsal məqsədilə idxal olunan texnika və avadanlıqların ƏDV-dən azad olması İnvestisiyalara dövlət təminatı verilməsi.Əlverişli logistik imkanlar:Rusiya bazarına çıxış;Türkiyə bazarına çıxış – yeni tikilmiş Bakı–Kars dəmir yolu xəttinin Gəncə-Kars məsafəsi - 220 km-dir;İran bazarına çıxış;Bakı şəhərindən 300 km məsafə.      Müəssisələr arasında sıx ticari əməkdaşlıq imkanları:Məhəllədə fəaliyyət göstərən müəssisələrin ilk növbədə qarşılıqlı əməkdaşlığı təşviq ediləcək; Garabagh Town məhəlləsində təşkil olunacaq əsas fəaliyyət istiqamətləri:Emal Sənayesi müəssisələri Meyvə şirələri və konservləşdirilmiş meyvə və tərəvəz istehsalı;Geyim və tikiş məhsullarının istehsalı;Xalça və kilim məhsullarının istehsalı;İplik məhsullarının emalı və boyanması; Yun, pambıq, ipək parçaların toxunması; Ət və süd məhsullarının istehsalı. Kənd Təsərrüfatı müəssisələriİstixana təsərrüfatı;Yun, pambıq, ipək ipliklərin tədarükü;İri buynuzlu fermer təsərrüfatı.",
+      "specialimages": [
+        {
+          "url": "/assets/special1.svg"
+        },
+        {
+          "url": "/assets/special2.svg"
+        },
+        {
+          "url": "/assets/special3.svg"
+        },
+        {
+          "url": "/assets/special4.svg"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "image": {
+        "url": "/assets/news2.svg"
+      },
+      "name": "North-West Town Məhəlləsi",
+      "desc": "Ərazınin əlverişli logistika imkanları layihənin uğurla həyata keçəcəyinə təminat verir",
+      "context": "Fəaliyyətə başladığı gündən etibarən işğaldan azad olunmuş ərazilərdə yenidənqurma işləri ilə məşğul olan 'Qarabağ Aqro 44'MMC bu dəfə öz  layihə və gələcək planlarını COP29 çərçivəsində göstərib. 20 Noyabr COP29 Yaşıl zonada 'Sürdürülebilir Gelecek Platformu' pavilyonunda təqdimat keçirilib. Azərbaycan-Türkiyə İş Adamları (ATİB) İdarə heyətinin üzvü 'Qarabağ Aqro 44'MMC-nin  layihə rəhbəri Ərəstun Qarayev işğaldan azad olunmuş Qarabağ iqtisadi rayonunda dayanıqlı kənd təsərrüfatı fəaliyyəti barədə qonaqlara təqdimat edib."
+    },
+    {
+      "id": "97",
+      "image": {
+        "url": "/assets/news3.svg"
+      },
+      "name": "Cənab Prezdentin ad günü  ",
+      "desc": "Cənab prezident İlham Əliyevin ad günü qeyd olunub."
+    },
+    {
+      "id": "98",
+      "image": {
+        "url": "/assets/news3.svg"
+      },
+      "name": "Cənab Prezdentin ad günü ",
+      "desc": "Cənab prezident İlham Əliyevin ad günü qeyd olunub."
+    }
+  ]
+}

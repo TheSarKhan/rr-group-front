@@ -1,0 +1,141 @@
+.newscard{
+    display: flex;
+    max-width: 555px;
+    height: 490px;
+    padding: 19px 20.25px 27px 20.25px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: start;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+   }
+   .newsname{
+    color: #0F2431;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0;
+    line-height: normal;
+   }
+   
+   .newsdesc{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 10px 0;
+   
+   }
+   .newsimage{
+    max-width: 514.5px;
+    height: 294px;
+    flex-shrink: 0;
+    aspect-ratio: 514.50/294.00;
+    border-radius: 6px;
+    background: url(<path-to-image>) lightgray -28px -28px / 108.844% 142.857% no-repeat;
+    overflow: hidden;
+   }
+   
+   .newsimg{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+// .newscard {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     border-radius: 10px;
+//     text-align: start;
+//     border: 1px solid rgba(0, 0, 0, 0.20);
+//     padding: 19px 20.25px 27px 20.25px;
+    
+//     /* Make width fluid */
+//     width: 100%;
+//     max-width: 555px;
+//     height: auto; /* remove fixed height for flexibility */
+//     box-sizing: border-box;
+//   }
+  
+  // .newsimage {
+  //   width: 100%;
+  //   max-width: 514.5px;
+  //   height: auto; /* flexible height */
+  //   aspect-ratio: 514.5 / 294;
+  //   border-radius: 6px;
+  //   overflow: hidden;
+  //   flex-shrink: 0;
+  // }
+  
+  // .newsimg {
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  // }
+  
+  // .newsname {
+  //   color: #0F2431;
+  //   font-family: Inter;
+  //   font-size: 2rem; /* scale down font on mobile with media query */
+  //   font-weight: 500;
+  //   padding: 10px 0;
+  //   line-height: normal;
+  // }
+  
+  // .newsdesc {
+  //   color: #000;
+  //   font-family: Inter;
+  //   font-size: 1.25rem; /* scale down font on mobile with media query */
+  //   font-weight: 300;
+  //   line-height: normal;
+  //   // padding: 10px 0;
+  //   padding: 0px;
+    
+
+
+  // }
+  .ql-editor {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+  
+
+  
+  
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .newscard {
+      max-width: 100%;
+      height: auto; /* flexible height */
+      padding: 12px 15px 18px 15px;
+    }
+  
+  
+   
+    .newsname {
+      font-size: 1.5rem; /* ~24px */
+    }
+  
+    .newsdesc {
+      font-size: 1rem; /* 16px */
+      padding: 8px 0;
+    }
+    .newsimage {
+      width: 100%;
+      max-width: 100%; /* Fill full container */
+      height: 220px; /* Fixed height for consistent image size */
+      border-radius: 6px;
+    }
+  
+    .newsimg {
+      width: 100%;
+      height: 100%; /* fill container */
+      object-fit: cover; /* crop but keep aspect ratio */
+    }
+  }

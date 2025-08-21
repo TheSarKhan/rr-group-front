@@ -1,0 +1,62 @@
+.aboutus{
+    color: #0F2431;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.choosedesc{
+    color: rgba(0, 0, 0, 0.80);
+font-family: "Hanken Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.choosedesc p,
+.choosedesc strong,
+.choosedesc em,
+.choosedesc span {
+  all: unset; /* Reset browser default styles */
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+}
+
+.choosedesc p {
+  display: block; /* to keep paragraph block behavior */
+  margin: 0 0 1em 0; /* optional spacing */
+}
+
+
+.choosename{
+    color: #0F2431;
+font-family: "Hanken Grotesk";
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 20px 0;
+}
+
+.plusline {
+    @media (max-width: 340px) {
+      display: none;
+      opacity: 0;
+    }
+  }
+  
+
+  @media (max-width: 640px) {
+    .plusline {
+      display: none;
+    }
+  }
+  
+

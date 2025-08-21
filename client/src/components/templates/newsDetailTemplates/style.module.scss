@@ -1,0 +1,43 @@
+.detailname{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.detname{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+  
+  
+}
+
+.projectimage{
+    width: 100%;
+height: 507px;
+flex-shrink: 0;
+aspect-ratio: 226/169;
+}
+
+.projectimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desccont{
+    width: 100%;
+height: 507px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F7F7F7;
+aspect-ratio: 226/169;
+padding: 20px;
+}
+
