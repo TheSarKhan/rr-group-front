@@ -8,10 +8,13 @@ const clearTokens = () => {
   localStorage.removeItem("refreshToken");
 };
 
+// .env-dəki baz URL
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 // Backend API çağırışı
 const updateEmail = async (token, newEmail) => {
   return axios.put(
-    "http://localhost:8080/api/v1/auth/reset/email", // Backend URL
+    `${API_BASE_URL}/v1/auth/reset/email`,
     null,
     {
       params: { param: newEmail },
@@ -57,7 +60,7 @@ export default function UpdateEmailForm() {
 
   return (
     <div style={{ padding: 40, maxWidth: 480, margin: "auto" }}>
-      <h2>Update Your Email</h2>
+      <h2>Mail hesabını dəyişdir</h2>
       <form
         onSubmit={handleSubmit}
         style={{ display: "flex", flexDirection: "column", gap: 20 }}

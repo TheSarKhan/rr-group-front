@@ -1,42 +1,4 @@
-// // import React from 'react';
-// // import { Link, Outlet } from 'react-router-dom';
-// // import AdminSidebar from '../AdminSidebar';
-
-// // const AdminLayout = () => {
-// //   return (
-// //     <div className="flex h-screen bg-[#F4F3FF]">
-// //   <AdminSidebar />
-// //   <main className="flex-1 bg-[#F4F3FF] p-8 overflow-y-auto">
-// //     <Outlet />
-// //   </main>
-// // </div>
-
-// //   );
-// // };
-
-// // export default AdminLayout;
-
-// import React from 'react';
-// import { Outlet } from 'react-router-dom';
-// import AdminSidebar from '../AdminSidebar';
-
-// const AdminLayout = () => {
-//   return (
-//     <div className="flex flex-col lg:flex-row h-screen overflow-hidden bg-[#F4F3FF]">
-//       {/* Sidebar takes full width on mobile, fixed width on desktop */}
-//       <div className="w-full lg:w-[280px] shrink-0 overflow-y-auto">
-//         <AdminSidebar />
-//       </div>
-
-//       {/* Main content fills remaining space */}
-//       <main className="flex-1 p-4 lg:p-8 overflow-y-auto">
-//         <Outlet />
-//       </main>
-//     </div>
-//   );
-// };
-
-// export default AdminLayout;
+ 
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import AdminSidebar from '../AdminSidebar';

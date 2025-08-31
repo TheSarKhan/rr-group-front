@@ -58,27 +58,12 @@ export default function AdminProfile() {
               marginBottom: "32px",
             }}
           >
-            Salam Admin
+            Salam,Admin
           </h1>
 
           {/* Password section */}
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "32px" }}>
-            <input
-              id="password"
-              type="password"
-              placeholder="Şifrənizi daxil edin"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              style={{
-                padding: "12px",
-                fontSize: "16px",
-                width: "100%",
-                borderRadius: "6px",
-                border: "1px solid #ccc",
-                outline: "none",
-                boxSizing: "border-box",
-              }}
-            />
+            
             <button
               onClick={handlePasswordChange}
               style={{
@@ -97,28 +82,13 @@ export default function AdminProfile() {
                 border: "none",
               }}
             >
-              Şifrəni deyişdir
+              Şifrəni dəyişdir
             </button>
           </div>
 
           {/* Email section */}
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <input
-              id="email"
-              type="email"
-              placeholder="Email daxil edin"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              style={{
-                padding: "12px",
-                fontSize: "16px",
-                width: "100%",
-                borderRadius: "6px",
-                border: "1px solid #ccc",
-                outline: "none",
-                boxSizing: "border-box",
-              }}
-            />
+            
             <button
               onClick={handleEmailChange}
               style={{
