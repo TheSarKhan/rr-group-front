@@ -49,7 +49,8 @@ const ServiceDetailSwiper = ({ images = [] }) => {
 
   if (!images || images.length === 0) return <p>No images to display.</p>;
 
-  const showNavigation = images.length > 3;
+  // Minimum 3 şəkil varsa navigation göstər
+  const showNavigation = images.length >= 3;
 
   return (
     <div className="container max-w-screen-xl mx-auto my-10 px-3 relative">

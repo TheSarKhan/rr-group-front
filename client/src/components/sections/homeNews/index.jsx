@@ -13,6 +13,7 @@ import clsx from 'clsx';
 import styles from './style.module.scss'
 import ArrowLeft from '../../../assets/arrow-left.svg';
 import ArrowRight from '../../../assets/arrow-right.svg';
+import { Link } from 'react-router-dom';
 
 export default function HomeNews() {
   const { data, isLoading, isError, error } = useQuery({
@@ -29,7 +30,16 @@ export default function HomeNews() {
 
   return (
     <div className="container max-w-screen-xl mx-auto my-10 px-3 relative">
-      <h1 className={clsx(styles.mission)}>Xəbərlər</h1>
+      {/* Başlıq və Hamısına bax linki yan-yana */}
+      <div className="flex justify-between items-center mb-6">
+        <h1 className={clsx(styles.mission)}>Xəbərlər</h1>
+        <Link
+          to="/news"
+          className="text-black py-2 px-6 rounded cursor-pointer text-xl"
+        >
+          Hamısına bax
+        </Link>
+      </div>
 
       {/* Custom Navigation Buttons */}
       <div className="swiper-button-prev custom-swiper-button">

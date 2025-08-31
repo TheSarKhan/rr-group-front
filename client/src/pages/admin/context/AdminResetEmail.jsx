@@ -1,26 +1,39 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getAccessToken, clearTokens } from "@/http/auth/token";
-import { updateEmail } from "@/http/auth";
+import axios from "axios";
 
-export default function ResetEmailPage() {
+// Tokenləri silmək üçün funksiya
+const clearTokens = () => {
+  localStorage.removeItem("accessToken");
+  localStorage.removeItem("refreshToken");
+};
+
+// Backend API çağırışı
+const updateEmail = async (token, newEmail) => {
+  return axios.put(
+    "http://localhost:8080/api/v1/auth/reset/email", // Backend URL
+    null,
+    {
+      params: { param: newEmail },
+      headers: { Authorization: `Bearer ${token}` },
+    }
+  );
+};
+
+export default function UpdateEmailForm() {
   const [newEmail, setNewEmail] = useState("");
+  const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState(null);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setStatus(null);
+    setStatus("");
 
     try {
-      const accessToken = getAccessToken();
-      if (!accessToken) {
-        setStatus("You must be logged in to update your email.");
-        setLoading(false);
-        return;
-      }
+      const accessToken = localStorage.getItem("accessToken");
+      if (!accessToken) throw new Error("No access token found");
 
       await updateEmail(accessToken, newEmail);
 
@@ -31,7 +44,13 @@ export default function ResetEmailPage() {
         navigate("/login");
       }, 2000);
     } catch (error) {
-      setStatus("Failed to update email: " + (error.response?.data?.message || error.message));
+      const msg =
+        error.response?.data?.message ||
+        error.response?.data?.error ||
+        error.message ||
+        "Unknown error";
+      setStatus("Failed to update email: " + msg);
+    } finally {
       setLoading(false);
     }
   };
@@ -39,7 +58,10 @@ export default function ResetEmailPage() {
   return (
     <div style={{ padding: 40, maxWidth: 480, margin: "auto" }}>
       <h2>Update Your Email</h2>
-      <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+      <form
+        onSubmit={handleSubmit}
+        style={{ display: "flex", flexDirection: "column", gap: 20 }}
+      >
         <input
           type="email"
           placeholder="New email address"
@@ -59,10 +81,10 @@ export default function ResetEmailPage() {
           type="submit"
           disabled={loading}
           style={{
-            padding: "12px",
+            padding: 12,
             backgroundColor: "#222",
             color: "#fff",
-            fontWeight: "700",
+            fontWeight: 700,
             fontSize: 16,
             borderRadius: 6,
             cursor: loading ? "not-allowed" : "pointer",
@@ -72,7 +94,12 @@ export default function ResetEmailPage() {
         </button>
       </form>
       {status && (
-        <p style={{ marginTop: 20, color: status.includes("successfully") ? "green" : "red" }}>
+        <p
+          style={{
+            marginTop: 20,
+            color: status.includes("successfully") ? "green" : "red",
+          }}
+        >
           {status}
         </p>
       )}
