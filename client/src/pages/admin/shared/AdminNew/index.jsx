@@ -77,54 +77,6 @@ existingImages: val.images.map((url) => url.split("/").pop()), // 👈 this is i
     setIsEditing(false);
     setEditId(null);
   };
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   if (!newValue.title.trim() || !newValue.paragraph.trim()) {
-  //     alert("Zəhmət olmasa bütün xanaları doldurun.");
-  //     return;
-  //   }
-
-  //   try {
-  //     const formData = new FormData();
-  //     const requestPayload = {
-  //       title: newValue.title.trim(),
-  //       paragraph: newValue.paragraph.trim(),
-  //     };
-
-  //     formData.append(
-  //       "request",
-  //       new Blob([JSON.stringify(requestPayload)], {
-  //         type: "application/json",
-  //       })
-  //     );
-
-  //     newValue.imageFiles.forEach((file) => {
-  //       formData.append("images", file);
-  //     });
-
-  //     const response = isEditing
-  //       ? await updateNew(editId, formData)
-  //       : await createNew(formData);
-
-  //     const updated = await getNews();
-  //     setAboutValues(
-  //       updated.data.map((item) => ({
-  //         id: item.id,
-  //         title: item.title,
-  //         paragraph: item.paragraph,
-  //         images: (item.images || []).map(
-  //           (img) => `${import.meta.env.VITE_API_BASE_URL}/v1/files/view/${img}`
-  //         ),
-  //       }))
-  //     );
-
-  //     resetForm();
-  //   } catch (err) {
-  //     console.error("Submission error:", err.response?.data || err.message);
-  //     alert("Əməliyyat zamanı xəta baş verdi.");
-  //   }
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!newValue.title.trim() || !newValue.paragraph.trim()) {
@@ -289,26 +241,43 @@ existingImages: val.images.map((url) => url.split("/").pop()), // 👈 this is i
                   alt={`preview-${index}`}
                   className="w-20 h-20 object-cover rounded"
                 />
-                <button
-                  type="button"
-                  className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center"
-                  onClick={() => {
-                    const updatedPreviews = [...newValue.imagePreviews];
-                    const removed = updatedPreviews.splice(index, 1)[0];
+ 
+<button
+  type="button"
+  className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center"
+  onClick={() => {
+    // Make a copy of the previews array
+    const updatedPreviews = [...newValue.imagePreviews];
+    // Remove the item at the current index and get the removed object
+    const removed = updatedPreviews.splice(index, 1)[0];
 
-                    const updatedFiles = [...newValue.imageFiles].filter(
-                      (f) => f !== removed.file
-                    );
+    // Check if the removed image was an existing one from the server
+    const isExisting = removed.isExisting;
 
-                    setNewValue((prev) => ({
-                      ...prev,
-                      imagePreviews: updatedPreviews,
-                      imageFiles: updatedFiles,
-                    }));
-                  }}
-                >
-                  ×
-                </button>
+    // Remove the file from the state
+    const updatedFiles = [...newValue.imageFiles].filter(
+      (f) => f !== removed.file
+    );
+
+    // Update existingImages array if the removed item was an existing image
+    let updatedExistingImages = [...newValue.existingImages];
+    if (isExisting) {
+      // Extract the filename from the URL and remove it from the array
+      const filename = removed.url.split("/").pop();
+      updatedExistingImages = updatedExistingImages.filter((name) => name !== filename);
+    }
+
+    setNewValue((prev) => ({
+      ...prev,
+      imagePreviews: updatedPreviews,
+      imageFiles: updatedFiles,
+      existingImages: updatedExistingImages, // This is the crucial line
+    }));
+  }}
+>
+  ×
+</button>
+
               </div>
             ))}
           </div>
